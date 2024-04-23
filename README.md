@@ -20,12 +20,8 @@ Guitar Hero 80s for Xbox 360 (GH80s x360) is in a manner of speaking a "Remaster
 	-Python
 	-Access to a CMD prompt
 	-A "legally" aquired copy of stock GH2 for the Xbox-360.
-
-	-1. ENSURE YOUR COPY OF GH2 IS IN A RAW-FILE FORMAT (Refer to the picture below)
-![](dependencies/STOCK GH2 360 FOLDER.png)
-	-2. Take your GH2 Raw Files and Place them within `Guitar-Hero-II-Deluxe-Unified\platform\xbox` (it should look like the picture below, DO NOT DELETE ANYTHING
-ALREADY IN THE FOLDER)
-![](dependencies/360 STEP 2.png)
+	-1. ENSURE YOUR COPY OF GH2 IS IN A RAW-FILE FORMAT (Refer to the picture below) ![dependencies/STOCK GH2 360 FOLDER.png]
+	-2. Take your GH2 Raw Files and Place them within `Guitar-Hero-II-Deluxe-Unified\platform\xbox` (it should look like the picture below, DO NOT DELETE ANYTHING ALREADY IN THE FOLDER) ![dependencies/360 STEP 2.png]
 	-3. Once it is installed, located the `scripts` folder in the root of the Repository, in this folder run `build_xbox.bat`. A CMD prompt will now open.
 	-4. Upon completion of the creation of the DX patch, a new folder called `out` should have opened, you now have offically survived the process of creating
 your very own copy of GH80s x360 for the Xbox-360! Congrats!
@@ -33,4 +29,3 @@ your very own copy of GH80s x360 for the Xbox-360! Congrats!
 simply drag the newly created `GEN` and `default.xex` files/folders (for those who prefer their GH2 with overscan you can rename `default no overscan.xex` to 
 default.xex after getting rid of the OG default.xex) over to your copy of stock GH2.
 	-6. You have offically created your own GH80s x360 copy. Now you can use this copy of GH80s x360 on any platform where 360 Games can be ran
-	

@@ -1372,16 +1372,12 @@
    "2. Amp-Warmers")
 (song_header_small2
    "3. String Snappers")
-(song_header_big
-   "4. Thrash and Burn")
 (song_header_theatre
-   "5. Return of the Shred")
+   "4. Return of the Shred")
 (song_header_fest
-   "6. Relentless Riffs")
+   "5. Relentless Riffs")
 (song_header_arena
-   "7. Furious Fretwork")
-(song_header_stone
-   "8. Face-Melters")
+   "6. Furious Fretwork")
 (song_header_store
    "Bonus Tracks")
 (song_header_download

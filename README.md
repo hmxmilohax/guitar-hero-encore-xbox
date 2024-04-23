@@ -5,6 +5,16 @@
 ## Background
 GH Rocks the 80s was an underappreciated PS2 exclusive Guitar Hero entry. It had unique character models and venues that never made their way over to Xbox. But what if they did? Thanks to tooling (superfreq), and knowledge advancements, both are now possible on real Xbox 360.
 
+## Features
+
+* No "Deluxe" features
+* As vanilla as possible
+* has all 80s characters, venues, songs, ui, but now on Xbox 360 
+* only has 80s chars and venues selectable, not gh2 chars and venues
+* all songs are completely vanilla 80s
+* Strum limit is even here
+* does not load dlc to be even more faithful to 80s
+
 ## Installation
 - GH80s x360 is in PRE-ALPHA, so the install process is *subject to change*. Currently, there are 2 flavors of GH80s x360: PS2 and Xbox 360.
 

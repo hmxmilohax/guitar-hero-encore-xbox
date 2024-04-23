@@ -258,15 +258,15 @@ for f in filter(ark_file_filter, Path("_ark").rglob("*")):
             ark_files.append(str(out_path))
 
 # write version info
-dta = Path("obj", args.platform, "raw", "dx", "locale", "dx_version.dta")
-dtb = Path("obj", args.platform, "raw", "dx", "locale", gen_folder, "dx_version.dtb")
-enc = Path("obj", args.platform, "ark", "dx", "locale", gen_folder, "dx_version.dtb")
+#dta = Path("obj", args.platform, "raw", "dx", "locale", "dx_version.dta")
+#dtb = Path("obj", args.platform, "raw", "dx", "locale", gen_folder, "dx_version.dtb")
+#enc = Path("obj", args.platform, "ark", "dx", "locale", gen_folder, "dx_version.dtb")
 
 #ninja.build(str(dta), "version", implicit="_always")
-ninja.build(str(dtb), "dtab_serialize", str(dta))
-ninja.build(str(enc), "dtab_encrypt", str(dtb))
+#ninja.build(str(dtb), "dtab_serialize", str(dta))
+#ninja.build(str(enc), "dtab_encrypt", str(dtb))
 
-ark_files.append(str(enc))
+#ark_files.append(str(enc))
 
 def generate_texture_list(input_path: Path):
     base = input_path.parts[1:]

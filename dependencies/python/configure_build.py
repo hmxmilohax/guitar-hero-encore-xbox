@@ -7,7 +7,7 @@ import os
 
 from PIL import Image, ImageFilter
 
-game_name = "Guitar Hero II Deluxe Unified"
+game_name = "Guitar Hero 80s Xbox 360"
 
 ninja = ninja_syntax.Writer(open("build.ninja", "w+"))
 

@@ -198,7 +198,7 @@ ark_files = []
 
 for f in filter(ark_file_filter, Path("_ark").rglob("*")):
     match f.suffixes:
-        case [".png"]:
+        case [".bmp"]:
             output_directory = Path("obj", args.platform, "ark").joinpath(
                 *f.parent.parts[1:]
             )
@@ -215,7 +215,7 @@ for f in filter(ark_file_filter, Path("_ark").rglob("*")):
                     ninja.build(str(ps3_output), "bswap", str(xbox_output))
                     ark_files.append(str(ps3_output))
                 case "xbox":
-                    target_filename = Path(gen_folder, f.stem + ".png_xbox")
+                    target_filename = Path(gen_folder, f.stem + ".bmp_xbox")
                     xbox_directory = Path("obj", args.platform, "ark").joinpath(
                         *f.parent.parts[1:]
                     )

@@ -262,7 +262,7 @@ dta = Path("obj", args.platform, "raw", "dx", "locale", "dx_version.dta")
 dtb = Path("obj", args.platform, "raw", "dx", "locale", gen_folder, "dx_version.dtb")
 enc = Path("obj", args.platform, "ark", "dx", "locale", gen_folder, "dx_version.dtb")
 
-ninja.build(str(dta), "version", implicit="_always")
+#ninja.build(str(dta), "version", implicit="_always")
 ninja.build(str(dtb), "dtab_serialize", str(dta))
 ninja.build(str(enc), "dtab_encrypt", str(dtb))
 

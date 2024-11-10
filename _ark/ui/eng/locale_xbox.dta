@@ -1,7 +1,7 @@
 (splash_anybutton
    "PRESS ANY BUTTON TO BEGIN")
 (splash_legal
-   "Guitar Hero II TM & © 2006-2007 RedOctane, Inc.\nRedOctane® is a registered trademark of RedOctane, Inc. and Activision is a registered trademark of Activision Publishing, Inc.\nGame code © 2005-2007 Harmonix Music Systems, Inc. Developed by Harmonix Music Systems.")
+   "Guitar Hero (TM) Encore: Rocks the 80s (TM) © 2006-2007 Activision Publishing, Inc. Game code © 2005-2007 Harmonix Music Systems, Inc. Developed by Harmonix Music Systems.")
 (signin_changed_title
    "SIGN-IN CHANGED")
 (signin_changed_msg
@@ -421,21 +421,21 @@
 (tut_guitar_loss_msg
    "Please ensure a Guitar Controller is properly connected")
 (win_easy
-   "Dear ______________________,\n\nCongrats on beating Guitar Hero II on Easy. Time to step it up a notch, Ace.\n\nYou want cash awards? Play on MEDIUM, HARD, or EXPERT. You'll be able to buy new guitars, new songs, new finishes... whatever your little rock star heart desires. Who knows, maybe we'll even throw a new mode atcha'!\n\nWelcome to the big time, kiddo.\n\nKisses,\nThe Management")
+   "Dear ______________________,\n\nCongrats on beating Guitar Hero: Rocks the 80s on Easy. Now it's gonna get a little more gnarly.\n\n nYou want cash awards? Play on MEDIUM, HARD, or EXPERT. You'll be able to buy new guitars, new finishes... it's gonna be totally major. Oh, AND, maybe even a dope new mode! Bonus!\n\n. So like, nice job.\n\nRock on to the max,\nThe Management")
 (win_medium
-   "Dear ______________________,\n\nCongrats, you beat Guitar Hero II on Medium. Nicely done.\n\nSo you probably know that you can score more cash and buy more stuff if you play HARD or EXPERT, right? Buying stuff is good. Buying stuff makes people like you.\n\nSo let's take it up a level, shall we? Just keep sellin' out gigs and we'll keep sucking up to you.\n\nSmooches,\nThe Management")
+   "Dear ______________________,\n\nCongrats, you beat Guitar Hero: Rocks the 80s on Medium. You gotta be stoked!\n\nSo, like, you already know that you can score more cash and buy more stuff if you play HARD or EXPERT, right? Buying stuff is so righteous, and I know your cards are totally maxed out.\n\nSo, like, if you take it up a level, you can party hearty! Congrats on that ripppin' performance.\n\nPeace out,\nThe Management")
 (win_hard
-   "Dear ______________________,\n\nCongrats, you beat Guitar Hero II on Hard. That's no small feat.\n\nThink you've got what it takes to really blow their minds? Try this bad boy out on EXPERT. They call it EXPERT for a reason. There may be a reward waiting for you if you succeed.\n\nSo stretch out them stubby little fingers, Tex, you've got truckload of pain awaiting you. The power of ROCK compels you.\n\nHugs,\nThe Management")
+   "Dear ______________________,\n\nCongrats, you beat Guitar Hero: Rocks the 80s on Hard. That was totally tubular!\n\nLike, oh my God, do you think you're ready to try this bad boy out on EXPERT? I mean, AS IF. They call it EXPERT for a reason. There might be a killer reward waiting if you can bang it out.\n\nSo, like, get on that already, duh!\n\nFer sure,\nThe Management")
 (win_expert
-   "Dear ______________________,\n\nWow... You just beat Guitar Hero II on EXPERT.\n\nYou've joined the ranks of... well... not very many people. You're kinda out there all alone, a legend among the common folk.\n\nHave you beaten every song with FIVE STARS? If not, get back to work, champ. You might just be rewarded for your efforts.\n\nAnd, uh, seriously? That was awesome. Congratulations.\n\nLove,\nThe Management")
+   "Dear ______________________,\n\nWow... You just beat Guitar Hero: Rocks the 80s on EXPERT.\n\nLike... NO... WAY! That was, like, unreal.\n\nHave you beaten every song with FIVE STARS? If not, you should, like, totally try. The rewards will seriously be stellar.\n\nAnd, uh, seriously? That was radical. You rock or whatever.\n\nLove,\nThe Management")
 (win_diff
-   "You beat Guitar Hero II on the %s difficulty")
+   "You beat Guitar Hero: Rocks the 80s on the %s difficulty")
 (win_congrats
    "Congratulations!")
 (win_legendary
-   "Your legendary show will be talked about for years.")
+   "Your legendary show will be talked about well into the nineties.")
 (win_stardom
-   "Rock Stardom beckons...")
+   "Ever so righteously done!")
 (ug_congrats
    "Congratulations!")
 (ug_blurb1
@@ -851,26 +851,18 @@
 (sponsor_sub4
    "(Good thing you can afford to buy a bigger wallet.)")
 (sponsor_blurb4
-   "The crowd loves you, and VHT Amps has noticed. They're setting you up with a hot sponsorship deal, and a top-of-the-line VHT amp to help drive 'em wild!")
-(sponsor_sub5
-   "(Have you considered getting your fretting hand insured?)")
-(sponsor_blurb5
    "Krank Amps thinks you're about to ride the fame train, and they wanna be onboard. They're giving you a sponsorship deal and a stellar Krank amp as your ticket to ride.")
-(sponsor_sub6
+(sponsor_sub5
    "(Go roll around in your money!)")
-(sponsor_blurb6
+(sponsor_blurb5
    "Well, look at you, gettin' all noticed by big wigs. Mesa Boogie was pretty impressed by that last show. They're handing you a major sponsorship deal and a Mesa Boogie amp to keep all eyes and ears focused on you.")
-(sponsor_sub7
+(sponsor_sub6
    "(Time to start hiding from the paparazzi.)")
-(sponsor_blurb7
-   "You're a household name, baby, and Randall Amps likes your style. They're providing a huge sponsorship deal and a Randall Amp to boost that famous sound of yours!")
-(sponsor_sub8
-   "(Try not to forget about the little people.)")
-(sponsor_blurb8
+(sponsor_blurb6
    "See, wasn't all that practice worth it? Boss Pedals thinks so, and they're handing you a monster sponsorship deal, not to mention enough Boss Pedals to perfectly customize your signature sound!")
-(sponsor_sub9
-   "(Buy your mom a house. Or an island.)")
-(sponsor_blurb9
+(sponsor_sub7
+   "(Try not to forget about the little people.)")
+(sponsor_blurb7
    "Ernie Ball has been with you from the start, and they are so proud of your incredible success. They're giving you a record-breaking sponsorship deal and strings for life. Congratulations.")
 (sponsor_cash
    "You milk your sponsor for:")
@@ -881,7 +873,13 @@
 (unlock_profaceoff3
    "You have unlocked PRO FACE-OFF Mode!")
 (unlock_profaceoff4
-   "You know how whenever you play FACE-OFF Mode, your buddy screams about how you got the easier track and less notes and blah blah, out comes the waaahmbulance? No more, my shredding friend.\n\nCheck out PRO FACE-OFF Mode in the Multiplayer menu and go note-for-note in the ultimate guitarmageddon.\n\nHave fun,\nThe Management")
+   "So, FACE-OFF Mode is pretty cool, until your goober friend says something totally bogus about you playing the easier track and then calls you a dweeb, and you're like, \qAs IF!\q and it ends in a major spazzfest. Now you can chill because YOUR skill IS boss and you get to prove it in PRO FACE-OFF, a killer note-for-note showdown mode found in the Multiplayer menu. Heavy!\n\nHave fun,\nThe Management")
+(unlock_song1
+   "Congratulations")
+(unlock_song2
+   "You have unlocked:")
+(unlock_song3
+   "This song is now available in your set list.")
 (highscore_dummy_0
    "Finn")
 (highscore_dummy_1
@@ -949,33 +947,29 @@
 (rockabill2
    "Eddie Knox")
 (alterna_blurb
-   "A fan of distorted feedback and roller derby, Judy Nails has been a pioneer of alt-rock since her first tour at age 17. Known for her huge collection of vinyl, Judy brings a smile, and a lot of pedals, to the stage.")
-(classic_blurb
-   "Having abandoned his fascination with the sitar (an interest developed during a court-ordered \qmeditation retreat\q), Clive returns to the forefront of classic rock with his guitar wizardry and iconic status.")
-(deathmetal_blurb
-   "Lock the doors and board the windows, Lars Ümlaüt is coming for you! An intimidating presence, the Norwegian-born Ümlaüt describes himself as \qa force for you to be doing the reckoning with!\q")
-(funk1_blurb
-   "Raised in suburban Connecticut, Xavier Stone broke from his pampered upbringing after realizing he preferred rock clubs to country clubs. Weaving slick '70s style with chunky grooves, Xavier does it right every time.")
+   "Judy Nails might look sweet onstage, but this alterna-girl is rumored to be a wild child in the wings. Having toured her teen years away, Judy is a rock and roll lifer and princess of the pedal board.")
 (goth_blurb
-   "Pandora's youth is shrouded in mystery.  Some say she was born in a dimension of pure darkness. Others say she was raised in a duplex near Boise. With her blazing solos and chaotic melodies, Pandora is the Dark Princess of Rock.")
+   "Enigmatic and experimental, Pandora is a true trendsetter. Asked about her incomparable new-wave guitar style, Pandora explains that her solos are \qtributes to the radness of robots and plastic.\q")
 (glam_blurb
-   "A real crowd pleaser, Izzy thrills all with his energetic onstage showmanship while delighting the media with his offstage debauchery. Izzy's fan base is even bigger than his hair.")
-(glam_blurb
-   "A real crowd pleaser, Izzy thrills all with his energetic onstage showmanship while delighting the media with his offstage debauchery. Izzy's fan base is even bigger than his hair.")
+   "Media darling and pop culture icon, Izzy Sparks is living the rock and roll dream and every mother's nightmare. With his love of legato and leopard skin, Izzy brings metal to the mainstream masses.")
 (grim_blurb
-   "This rock star is bad to the bone. Grim's riffs are so killer, fans are lucky just to leave the show with their souls intact. Grim's supernatural licks always knock 'em dead. 'Cause he's... you know... right.")
+   "Dudes? It just doesn't get more gnarly than Grim. With his unholy skill and blood-curdling licks, it's no wonder 40,000 are coming to see him at every show. Grim, like, totally kills.")
 (metal_blurb
-   "Famous for his driving riffs and up-front attitude, Axel Steel first picked up a guitar in an attempt to quell his boredom during suspension from elementary school. The rest is history. Metal history.")
+   "Just a city boy, born and raised in South Peoria, Axel Steel is a fan of arena rock and partyin' in the parking lot. King of the stadium show and master of the tailgate, Axel Steel is a hard-riffin' powerhouse.")
 (punk_blurb
-   "Johnny embodies the true spirit of punk rock with his signature stomp and swagger. Released from lockup for \qalmost tolerable behavior,\q Johnny lurches back into the spotlight, rough and ready for action.")
-(rock_blurb
-   "A veteran of the tour circuit, Casey's dirty, low-end growl and ultra-heavy riffs have influenced budding shredders from Maine to Alaska. She's tough, she's brash, and she'll break your heart faster than an E string.")
-(rockabill_blurb
-   "When he's not cruisin' in his '55 Chevy, Eddie brings his hard-working rock to any stage he sets foot on. A real \qroad dog,\q Eddie Knox claims that as long as he's got his hollow body and his pomade, he \qain't too far from home.\q")
+   "A fiend for surf punk and rapid downstrokes, Johnny Napalm spends as much time thrashing onstage as he does gettin' hassled by the 5-0. Fully chaotic and hella toxic, Johnny's all-ages shows are totally legendary.")
 (alterna_outfit_blurb
    "Likes: Perfect spelling, boast-worthy bruises, strawberries\n\nDislikes: Rudeness, fake strawberry-flavored things")
-(deathmetal_outfit_blurb
-   "Likes: mortality, blood explosions, the reckoning, abrupt tempo changes\n\nDislikes:  Big dogs")
+(goth_outfit_blurb
+   "Likes: make-up, hailstorms, leather\n\nDislikes: Small talk, the beach")
+(glam_outfit_blurb
+   "Likes: Zebra print, arenas, pouting\n\nDislikes: irony, tour managers, alimony")
+(metal_outfit_blurb
+   "Likes: Metal\n\nDislikes: Un-metal")
+(punk_outfit_blurb
+   "Likes: live shows, smashing stuff, kicking stuff, amps\n\nDislikes: wake-up calls, authority")
+(grim_shop_desc
+   "Dudes? It just doesn't get more gnarly than Grim. With his unholy skill and blood-curdling licks, it's no wonder 40,000 are coming to see him at every show. Grim, like, totally kills.")
 (goth_outfit_blurb
    "Likes: make-up, hailstorms, leather\n\nDislikes: Small talk, the beach")
 (glam_outfit_blurb
@@ -1385,13 +1379,13 @@
 (song_old_venue
    "Play in the latest venue to continue your career")
 (song_current_venue
-   "Beat %i/5 songs to continue")
+   "Beat %i/4 songs to continue")
 (song_current_venue_encore
    "Beat the encore to continue")
 (song_win_easy
    "Beat %i/%i songs to win")
 (song_win_other
-   "Beat Free Bird to win")
+   "Beat Play With Me to win")
 (song_quickplay
    "Play Career Mode to get more songs")
 (encore_song_listing
@@ -1747,21 +1741,21 @@
 (endgame_encore_money
    "$%d earned")
 (endgame_encore_letter3
-   "The crowd is goin' nuts, you'd better play an encore. Think you can buck up and give it all you've got with one more?")
+   "Oh my God, the crowd, like, totally worships you. You, like, HAVE to play an encore or they'll just DIE. You can play one more, right?")
 (endgame_encore_letter4
-   "Man, they're lovin' you! Do your fans a favor and go back out there. You got enough energy for one more?")
+   "This is, like, the most righteous show EVER. You have the stamina to give 'em one more song, dontcha? Like, please?")
 (endgame_encore_letter5
-   "They're really chanting out there! They're demanding one more. Can you pull it together for a big finish?")
+   "Whoa, the crowd just will NOT stop chanting your name! Seriously, you gotta play another song! Can you pull it together for a big finish?")
 (endgame_encore_letter6
    "The audience is flippin' out! Come on, chief, give 'em what they want! You got time for one more?")
-(endgame_encore_freebird1
-   "Looks like the time has come. They're chanting for Free Bird. You knew it would happen one day. You wanna do this?")
-(freebird_confirm1
-   "Wait, you really want to play Free Bird?")
-(freebird_confirm2
-   "This move can only be pulled off by a TRUE hero! \nYou still game?")
-(freebird_confirm3
-   "Okay, last chance... \nYou really want to play Free Bird?")
+(endgame_encore_finalsong1
+   "The crowd is goin' insane. You know what they wanna hear: the MOST EXCELLENT super-shredder track, Play With Me. You ready?")
+(finalsong_confirm1
+   "This ain't for the faint of heart, buddy. \nYou really want to try Play With Me?")
+(finalsong_confirm2
+   "Seriously, it's, like, TOTALLY hard. \nYou still game?")
+(finalsong_confirm3
+   "Okay, last chance... \nYou really want to rock Play With Me?")
 (MULTIPLAYER_MODE_SELECT
    "MULTIPLAYER MODE SELECT")
 (MULTI_COMPETE
@@ -1845,43 +1839,43 @@
 (loading_tip14
    "Take the highest score you've gotten on each song across all difficulties and add 'em all together. That's your career score.")
 (comedy_tip1
-   "Life is hard for musicians, but for drummers it's nearly impossible.")
+   "It's not how WELL you sing, it's how HIGH you sing.")
 (comedy_tip2
-   "If your singer ain't happy, ain't nobody happy.")
+   "When you are famous, you will have assistants remove your leather pants for you.  Until then, use talcum powder.")
 (comedy_tip3
-   "You need a mini-fridge in your practice space. It's more important than a bassist.")
+   "Your singer is correct. \qNight\q is the word that best rhymes with \qnight.\q")
 (comedy_tip4
-   "You only need one person with a mohawk in your band.")
+   "Don't stand too close to the flash pots.")
 (comedy_tip5
-   "Remember, NO STAIRWAY!")
+   "Keep practicin' that \qAxl Dance.\q You'll get it one of these days.")
 (comedy_tip6
    "TURN IT UP!")
 (comedy_tip7
-   "It takes a REALLY long time to drive the van through Nebraska.")
+   "Live the life. Stonewash your underpants.")
 (comedy_tip8
-   "If you have a road crew, it's called \qhauling\q equipment. Otherwise it's called \qschlepping.\q")
+   "If your hair still moves while you're headbanging, you aren't using enough hairspray.")
 (comedy_tip9
-   "It all comes out on the road.")
+   "Smell the new cassette tape. This is the scent of rock.")
 (comedy_tip10
-   "A band is the dysfunctional family you choose.")
+   "Beware: country bands, too, wear fringed jackets.")
 (comedy_tip11
-   "If you call your new song a \qRock Anthem,\q you'd better be damn sure.")
+   "Before the internet existed, people expressed their love for heavy metal in the bathroom stall.")
 (comedy_tip12
-   "It's customary to try to be the loudest during practice.")
+   "It's okay for the drummer to buy, like, the hugest kit ever. No one wants to see his bad make-up anyway.")
 (comedy_tip13
-   "Dropping your pants onstage does not deploy Star Power.")
+   "A proper modern hard rock solo requires 3 whammies per note. Minimum.")
 (comedy_tip14
    "If your neighbors keep complaining about the noise, turn up the volume until they move away.")
 (comedy_tip15
-   "Your mom does not count as a fan.")
+   "The crowd will never tire of the lyric \qOh yeah!\q")
 (easy_tip1
    "You don't get any cash in EASY, but you do in MEDIUM, HARD and EXPERT.")
 (easy_tip2
    "If you're getting 5 stars on every song without breaking a sweat, it's time to move up to MEDIUM.")
 (easy_tip3
-   "Try MEDIUM or harder if you want to be able to buy new guitars, songs, videos, and more.")
+   "Try MEDIUM or harder if you want to be able to buy new guitars, finishes, and more.")
 (advanced_tip1
-   "Stuck on a song? Try getting 5 stars on an easier one.")
+   "Stuck on a song?  Try getting 5 stars on an easier one.")
 (advanced_tip2
    "Save your Star Power for sections with many notes. You'll get more points and bigger Rock Meter boosts.")
 (advanced_tip3
@@ -1889,31 +1883,31 @@
 (advanced_tip4
    "Strum up and down to keep your arm from wearing out during fast passages.")
 (advanced_tip5
-   "Pick up characters, outfits, guitars, bonus songs, and more at The Store.")
+   "Pick up characters, guitars, and more at The Store.")
 (encore_tip1
-   "Don't write your encore on your set list - your fans will know you planned it.")
+   "Always re-tease your hair before the encore. ALWAYS.")
 (encore_tip2
-   "If the staff is already flipping the stools, you missed your chance for an encore.")
+   "Encore? They needed to ask? Like, DUH!")
 (encore_tip3
-   "You better be sure they WANT you to come back out before you save your best song for the encore.")
+   "For your encore, remember: untested laser effects can look wicked bogus.")
 (encore_tip4
-   "If your drummer is too tired for an encore, then your drummer is too tired for the after-party.")
+   "Playing a long set can make you tired and mega-grody. Drench your drummer in soda before the encore.")
 (encore_tip5
-   "If they want an encore but you're out of songs, do NOT, under any circumstances, try to just JAM.")
+   "Give the encore all you've got. Do it for the bitchin' babe in the third row in the cut-offs.")
 (encore_tip6
-   "If the crowd is screaming for more but the sound dude is shaking his head angrily, just ignore him and play anyway.")
-(freebird_tip1
-   "You're looking for \qGtr solo i\q in Practice Mode.")
-(freebird_tip2
-   "Save yourself a whole world of pain. Master Free Bird in Practice Mode before trying your hand at the full version on stage.")
-(freebird_tip3
-   "FINE. They AREN'T just heckling you this time. SIGH.")
-(freebird_tip4
-   "Man, you must really like Free Bird.")
-(freebird_tip5
-   "Hang in there! You can do it! FREE BIRD!")
-(freebird_tip6
-   "AND THIS BIRD YOU CANNOT CHANGE!!!")
+   "General rule of encores: first on the cassette, last in the set.")
+(playwithme_tip1
+   "Yeah it's hard. In fact, it's EXTREME! Ha ha ha.")
+(playwithme_tip2
+   "Save yourself a whole world of pain. Master Play With Me in Practice Mode before trying your hand at the full version on stage.")
+(playwithme_tip3
+   "Look, it's easier than washing all that gel out of your hair.")
+(playwithme_tip4
+   "Nobody ever said shredding was easy.")
+(playwithme_tip5
+   "That intro part? Yeah. That's Mozart. Dude was pretty righteous.")
+(playwithme_tip6
+   "You've gotten this far. Party on.")
 (multi_coop_tip1
    "In Cooperative Mode, both players need to tilt their guitars TOGETHER to engage Star Power.")
 (multi_coop_tip2

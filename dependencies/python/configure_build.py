@@ -251,6 +251,8 @@ for f in filter(ark_file_filter, Path("_ark").rglob("*")):
             )
             ninja.build(str(encryption_output), "dtab_encrypt", str(serialize_output))
             ark_files.append(str(encryption_output))
+        case [".ini"]:
+            nothing = 0
         case _:
             index = f.parts.index("_ark")
             out_path = Path("obj", args.platform, "ark").joinpath(*f.parts[index + 1 :])

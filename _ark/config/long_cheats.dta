@@ -36,7 +36,7 @@
       G_RED
       G_YELLOW
    )
-   {if_else $permadeath $randomizer
+   {if_else {|| $permadeath $randomizer}
       {play_sfx button_error}
       {if {&& CHEATS_ALLOWED {! $cheat_enabled_unlock_all}}
          {set $cheat_enabled_unlock_all 1}
@@ -205,7 +205,7 @@
       G_BLUE
       G_YELLOW
    )
-   {if_else $permadeath $randomizer
+   {if_else {|| $permadeath $randomizer}
       {play_sfx button_error}
       {if {&& CHEATS_ALLOWED {! $cheat_enabled_unlock_all}}
          {set $cheat_enabled_unlock_all 1}
@@ -345,7 +345,7 @@
       G_BLUE
       G_YELLOW
    )
-   {if_else $permadeath $randomizer
+   {if_else {|| $permadeath $randomizer}
       {play_sfx button_error}
       {if {&& CHEATS_ALLOWED {! $cheat_enabled_unlock_all}}
          {set $cheat_enabled_unlock_all 1}

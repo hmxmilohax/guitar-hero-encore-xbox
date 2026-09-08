@@ -99,16 +99,16 @@
                   {do
                      {nameprof_screen set back_screen main_screen}
                      {nameprof_screen set is_editing FALSE}
-                     {if_else $permadeath
+                  ;   {if_else $permadeath
                         {nameprof_screen set profile_slot 0}
-                        {if_else $randomizer
-                           {nameprof_screen set profile_slot 1}
-                           {if_else $gym_unlock_all
-                              {nameprof_screen set profile_slot 3}
-                              {nameprof_screen set profile_slot 2}
-                           }
-                        }
-                     }
+                  ;      {if_else $randomizer
+                  ;         {nameprof_screen set profile_slot 1}
+                  ;         {if_else $gym_unlock_all
+                  ;            {nameprof_screen set profile_slot 3}
+                  ;            {nameprof_screen set profile_slot 2}
+                  ;         }
+                  ;      }
+                  ;   }
                      {nameprof_screen set next_screen sel_difficulty_screen}
                      {ui goto_screen nameprof_screen}
                   }

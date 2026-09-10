@@ -20,9 +20,16 @@
       {$this reset_player_settings}
       {if {! [already_entered]}
          {synth play_sequence meta_lick}
-         {if {&& {== {game get_controller 0} guitar} {== {campaign tutorials_done} 0}}
-            {$this set_focus main_tutorial.btn}
-         }
+         ;dx don't force highlight tutorials, we dont need to git gud
+         ;   {if
+         ;      {&&
+         ;         {==
+         ;            {game get_controller 0}
+         ;            guitar}
+         ;         {==
+         ;            {campaign tutorials_done}
+         ;            0}}
+         ;      {$this set_focus main_tutorial.btn}}
          {$this set already_entered TRUE}
       }
       {game set_tutorial_running FALSE}

@@ -73,6 +73,7 @@
       }
       {print "encore song is " [encore_song] "\n"}
       #ifdef GAME_GH2
+      #ifdef HX_XBOX
       {do
          ($tonight FALSE)
          {foreach $entry {find $syscfg mapped_songs}
@@ -92,6 +93,7 @@
             {{{world_panel loaded_dir} find drummer} show_drummer}
          }
       }
+      #endif
       #endif
    )
    (intro_start_msg
@@ -417,17 +419,17 @@
 {new FadePanel
    fade_panel
    (file fade.milo)
-   #ifdef HX_XBOX
    (enter
+      #ifdef HX_XBOX
       {do
          ($attract {== {gamecfg get mode} attract})
          {press_any_button.lbl set_showing $attract}
          {logo.mesh set_showing $attract}
       }
+      #else
+      {press_any_button.lbl set_showing {game_screen get attract_mode}}
+      #endif
    )
-   #else
-   (enter {press_any_button.lbl set_showing {game_screen get attract_mode}})
-   #endif
 }
 #ifdef HX_XBOX
 #define TRACK_MASK (track_mask)

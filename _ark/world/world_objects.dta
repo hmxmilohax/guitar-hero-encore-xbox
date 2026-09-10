@@ -517,9 +517,13 @@
 )
 #merge arena/arena.dta
 #merge battle/battle.dta
+#ifdef GAME_GH2
 #merge big/big.dta
+#endif
 #merge fest/fest.dta
 #merge small1/small1.dta
 #merge small2/small2.dta
+#ifdef GAME_GH2
 #merge stone/stone.dta
+#endif
 #merge theatre/theatre.dta

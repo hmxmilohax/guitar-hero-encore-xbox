@@ -26,6 +26,7 @@
       (10 "Supera %i/10 temas para seguir")
    }
 )
+(op_data_settings "Gestionar grupo")
 (splash_anybutton "PULSA UN BOTÓN PARA EMPEZAR")
 (guitar_help_using "USO DEL MANDO DE GUITARRA")
 (guitar_help_plugin "Conecta la guitarra y abrocha la bandolera.")

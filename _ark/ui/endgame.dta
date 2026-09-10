@@ -111,22 +111,24 @@
             }
          }
       }
-      #ifdef HX_XBOX
-      {if {&& $good_to_go {! {gamecfg multiplayer}}}
-         #ifdef GAME_GH2
-         {if
-            {&&
-               {song_completed_non_randomizer trogdor}
-               {song_completed_non_randomizer thunderhorse}
-            }
-            {achievements submit troghorse}
-         }
-         #endif
-         {if {campaign store_songs_passed}
-            {achievements submit beat_unlocks}
-         }
-      }
-      #endif
+      ;TODO - this crashes right now
+      ;#ifdef HX_XBOX
+      ;{if {&& $good_to_go {! {gamecfg multiplayer}}}
+      ;   #ifdef GAME_GH2
+      ;   {if
+      ;      {&&
+      ;         {song_completed_non_randomizer trogdor}
+      ;         {song_completed_non_randomizer thunderhorse}
+      ;      }
+      ;      {achievements submit troghorse}
+      ;   }
+      ;   #endif
+      ;   {if {campaign store_songs_passed}
+      ;      {achievements submit beat_unlocks}
+      ;   }
+      ;}
+      ;#endif
+      
       ;do not send scores to the leaderboard dawg
       ;{if
       ;   {!

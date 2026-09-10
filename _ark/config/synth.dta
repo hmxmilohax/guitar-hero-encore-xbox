@@ -1,10 +1,13 @@
+#ifdef HX_XBOX
+(use_xma FALSE)
+#endif
 (iop
    (max_streams 15)
    (spu_buffers 60)
    (max_slip 300)
 )
 (metamusic
-   (volume -7.0)
+   (volume -6.0)
    (fade_rate 1.0)
    (music
       metaloop_bangyourhead

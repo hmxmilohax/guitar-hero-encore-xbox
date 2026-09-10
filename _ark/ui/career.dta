@@ -693,6 +693,9 @@
    )
 }
 {new UIPanel store_back_panel (file store_back.milo)}
+#ifdef HX_EE
+#define STORE_SONG_GENERIC_LOGO ((thunderhorse trogdor))
+#endif
 {new StorePanel
    store_panel
    (file store.milo)
@@ -1441,7 +1444,6 @@
    )
    (SELECT_START_MSG
       {sel_song_panel set metamusic_on_exit FALSE}
-      ;{sel_song_panel beat_song}
       {ui goto_screen loading_screen}
       kDataUnhandled
    )

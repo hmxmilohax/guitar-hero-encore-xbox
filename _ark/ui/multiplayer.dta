@@ -1072,6 +1072,7 @@
    )
    (enter {world_panel set_showing FALSE})
 }
+#ifdef HX_XBOX
 #define kPosP1 (1)
 #define kPosCenter (2)
 #define kPosP2 (3)
@@ -1307,3 +1308,4 @@
       )
    )
 }
+#endif
